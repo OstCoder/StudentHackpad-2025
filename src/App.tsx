@@ -11,9 +11,9 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <Toaster />
+    <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/StudentHackpad-2025/">
         <Routes>
           <Route path="/" element={<StudyPulse />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
