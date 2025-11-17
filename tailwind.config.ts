@@ -52,6 +52,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        sp: {
+          sage: "hsl(var(--sp-sage))",
+          steel: "hsl(var(--sp-steel))",
+          sky: "hsl(var(--sp-sky))",
+          azure: "hsl(var(--sp-azure))",
+          cloud: "hsl(var(--sp-cloud))",
+        },
       },
       backgroundImage: {
         'gradient-primary': 'var(--gradient-primary)',
